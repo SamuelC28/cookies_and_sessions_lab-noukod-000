@@ -2,9 +2,7 @@
 
 <h3>Your Products:</h3>
 <% @cart.each do |product| %>
-<p>
   <%= product %>
-</p>
 <% end %>
 
 <%= form_tag('/products/add') do %>
