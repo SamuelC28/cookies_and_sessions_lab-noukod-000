@@ -13,5 +13,5 @@ class ApplicationController < ActionController::Base
     @item = Item.find(params[:id])
     # Load the cart from the session, or create a new empty cart.
     current_cart << @item.id
-  end 
+  end
 end
